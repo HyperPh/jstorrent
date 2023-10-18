@@ -1,0 +1,27 @@
+{
+  "name": "jstorrent",
+  "version": "0.0.1",
+  "description": "bencoding and torrent parser in js",
+  "main": "./esm/index.mjs",
+  "exports": {
+    "require": "./torrent.cjs",
+    "import": "./esm/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyperPh/jstorrent.git"
+  },
+  "keywords": [
+    "bencode",
+    "torrent"
+  ],
+  "author": "Hyperbola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyperPh/jstorrent/issues"
+  },
+  "homepage": "https://github.com/HyperPh/jstorrent#readme"
+}
